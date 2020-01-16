@@ -14,9 +14,7 @@ import java.lang.reflect.Method;
 @Retention(value = RetentionPolicy.RUNTIME)
 @interface Test {
     int a();
-
     int b();
-
     int c();
 }
 
